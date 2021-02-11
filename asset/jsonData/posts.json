@@ -1,0 +1,16 @@
+[   {
+        "name":"John",
+        "image":"/asset/img/forest.jpg",
+        "postTitle":"New Technology Arrives",
+        "date":"January 21,2021",
+        "postText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat sit amet risus ut venenatis. Mauris sit amet tortor velit. Fusce imperdiet nec felis et hendrerit. Integer at eros ac leo cursus viverra. In sagittis justo lectus, vel facilisis sapien elementum at. Suspendisse nec mauris pellentesque, lobortis augue sed, ultricies diam. Suspendisse potenti. Vestibulum vulputate ipsum id suscipit vestibulum. Cras a pretium est. Integer finibus placerat ex ac feugiat. Nullam vestibulum diam suscipit, venenatis mi quis, "
+    },
+
+    {
+        "name":"Mary",
+        "image":"/asset/img/tesla.jpg",
+        "postTitle":"The future of Motoring",
+        "date":"January 25,2021",
+        "postText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat sit amet risus ut venenatis. Mauris sit amet tortor velit. Fusce imperdiet nec felis et hendrerit. Integer at eros ac leo cursus viverra. In sagittis justo lectus, vel facilisis sapien elementum at. Suspendisse nec mauris pellentesque, lobortis augue sed, ultricies diam. Suspendisse potenti. Vestibulum vulputate ipsum id suscipit vestibulum. Cras a pretium est. Integer finibus placerat ex ac feugiat. Nullam vestibulum diam suscipit, "
+    }
+]
