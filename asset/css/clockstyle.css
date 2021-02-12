@@ -2,7 +2,9 @@
     display: flex;
     justify-content: center;
 }
-
+*::after, *::before{
+    box-sizing: border-box;
+}
 .clock{
     width: 400px;
     height:400px;
@@ -16,63 +18,45 @@
     border-radius: 50%;
     box-shadow: inset 0px 0px 20px rgb(150, 150, 150);
 }
-
-
-.pin::before {
-    content: "";
-    background-color: rgb(216, 215, 226);
+/* 
+.pin {
+    display: flex;
     position: absolute;
-    top: 49.5%;
-    left: 50%; 
+    justify-content: center;
+} */
+.hour, .min, .sec {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    border-radius: 10px 10px 10px 10px;
     transform: translateX(-50%);
+    transform-origin: bottom ;
+    z-index: 10;
+}
+
+.sec {
+    width: 3px;
+    height: 130px;
+    background-color: red;
+}
+
+.hour {
     width: 5px;
-    height:5px;
-    border-radius: 50%;
-
-}
-
-.hour::before{
-    content: "";
-    background-color: rgb(143, 12, 12);
-    width: 7px;
     height: 80px;
-    z-index: -1;
-    position: absolute;
-    transform-origin: 50% 92%;
-    transform: rotate(0deg);
-    top: 32.2%;
-    left: 49.2%;
-    border-radius: 10px 10px 10px 10px;
-    
+    background-color: green;
 }
 
- .min::before{
-    content: "";
-    background-color: rgb(171, 173, 28);
-    width: 7px;
+.min {
+    width: 5px;
     height: 100px;
-    position: absolute;
-    transform-origin: 50% 92%;
-    transform: rotate(90deg);
-    z-index: -1;
-    top: 27.2%;
-    left: 49.2%;
-    border-radius: 10px 10px 10px 10px;
-    
-} 
-
-.sec::before{
-    content: "";
-    background-color: rgb(92, 179, 135);
-    width: 4px;
-    height: 140px;
-    position: absolute;
-    transform-origin: 50% 95%;
-    transform: rotate(300deg);
-    z-index: -1;
-    top: 17.1%;
-    left: 49.598391%;
-    border-radius: 10px 10px 10px 10px;
-    
+    background-color: blue;
 }
+
+
+
+
+
+
+
+
 
