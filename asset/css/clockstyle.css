@@ -2,19 +2,19 @@
     display: flex;
     justify-content: center;
 }
-*::after, *::before{
-    box-sizing: border-box;
-}
+
 .clock{
-    width: 400px;
-    height:400px;
+    width: 350px;
+    height:350px;
     background-color: rgb(207, 224, 209);
     background: url(../img/clock.png);
-    background-size: cover;
+    background-size:cover;
     position: relative;
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
     z-index: -1;
-    border: 0.1px solid black;
+    border: 2px dashed rgb(65, 61, 61);
     border-radius: 50%;
     box-shadow: inset 0px 0px 20px rgb(150, 150, 150);
 }
@@ -28,15 +28,15 @@
     position: absolute;
     bottom: 50%;
     left: 50%;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 20px;
     transform: translateX(-50%);
     transform-origin: bottom ;
     z-index: 10;
 }
 
 .sec {
-    width: 3px;
-    height: 130px;
+    width: 2px;
+    height: 120px;
     background-color: red;
 }
 
