@@ -22,7 +22,7 @@ function slidePrevious(e){
         gallery.style.transform="translateX(" + (-widthSlide * counter) + "px)";
         return
     }
-    gallery.style.transition="all 0.4s ease-in-out";
+    
     counter--;
     gallery.style.transform="translateX(" + (-widthSlide * counter) + "px)";
 }
@@ -35,7 +35,7 @@ function slideNext(e) {
         gallery.style.transform="translateX(" + (-widthSlide * counter) + "px)";
         return;
     }
-    gallery.style.trasition="all 10s ease-in-out";
+    
     counter++;
     gallery.style.transform="translateX(" + (-widthSlide * counter) + "px)";
 }
